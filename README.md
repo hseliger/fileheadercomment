@@ -1,3 +1,5 @@
+**This is a fork from the original version by doi for personal use only. No public maintainance intended!**
+
 # FileHeaderComment
 
 This extension allow you to insert timestamp, copyright or any information to your file like comment below
