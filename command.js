@@ -133,9 +133,9 @@ function insertFileHeaderComment(picked_template){
         case "dtx":
         case "sty":
             Object.assign(replace, {
-                'commentbegin': "\iffalse",
+                'commentbegin': "",
                 'commentprefix': "%",
-                'commentend': "\fi"
+                'commentend': ""
             });
             break;
     }
