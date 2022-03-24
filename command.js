@@ -129,6 +129,15 @@ function insertFileHeaderComment(picked_template){
                 'commentend': "-->"
             });
             break;
+        case "tex":
+        case "dtx":
+        case "sty":
+            Object.assign(replace, {
+                'commentbegin': "\iffalse",
+                'commentprefix': "%",
+                'commentend': "\fi"
+            });
+            break;
     }
     Object.assign(replace, r_lang);
 
