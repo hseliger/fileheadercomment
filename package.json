@@ -3,7 +3,7 @@
     "displayName": "File Header Comment",
     "description": "Insert File Header Comment such as date, time",
     "version": "0.0.5",
-    "publisher": "doi",
+    "publisher": "hseliger",
     "engines": {
         "vscode": "^1.0.0"
     },
@@ -50,10 +50,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/doi/fileheadercomment.git"
+        "url": "https://github.com/hseliger/fileheadercomment.git"
     },
     "bugs": {
-        "url": "https://github.com/doi/fileheadercomment/issues"
+        "url": "https://github.com/hseliger/fileheadercomment/issues"
     },
     "license": "SEE LICENSE IN LICENSE.md"
 }
