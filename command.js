@@ -50,9 +50,10 @@ function insertFileHeaderComment(picked_template){
     }else{
         template = [
             "${commentbegin}",
-            "${commentprefix} Created on ${date}",
-            "${commentprefix}",
-            "${commentprefix} Copyright (c) ${year} ${company}",
+            "${commentprefix} Created: ",
+            "${commentprefix} Last changes: none yet",
+            "${commentprefix} Copyright © ${year} ${company}",
+            "${commentprefix} Licensed under GPL3",
             "${commentend}"
         ];
     }
@@ -133,9 +134,9 @@ function insertFileHeaderComment(picked_template){
         case "latex":
         case "doctex":
             Object.assign(replace, {
-                'commentbegin': "",
-                'commentprefix': "%",
-                'commentend': ""
+                'commentbegin': "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+                'commentprefix': "% ",
+                'commentend': "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"
             });
             break;
     }

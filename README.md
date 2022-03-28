@@ -139,6 +139,10 @@ You can use parameters below in your template
 
 ## Release Notes
 ### 0.0.5
+- Initial hseliger version with added support for TeX files (.tex, .sty, .dtx)
+
+## Releases from original version
+### 0.0.5
 - fixing python comment style (thanks to @ronak1009)
 ### 0.0.4
 - support yaml, shellscript language (thanks to @waddyvic)
