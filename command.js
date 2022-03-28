@@ -130,8 +130,8 @@ function insertFileHeaderComment(picked_template){
             });
             break;
         case "tex":
-        case "dtx":
-        case "sty":
+        case "latex":
+        case "doctex":
             Object.assign(replace, {
                 'commentbegin': "",
                 'commentprefix': "%",
