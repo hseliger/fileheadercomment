@@ -52,7 +52,7 @@ function insertFileHeaderComment(picked_template){
             "${commentbegin}",
             "${commentprefix} Created: ",
             "${commentprefix} Last changes: none yet",
-            "${commentprefix} Copyright © ${year} ${company}",
+            "${commentprefix} Copyright © ${year} by ${company}",
             "${commentprefix} Licensed under GPL3",
             "${commentend}"
         ];
